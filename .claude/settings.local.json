@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yazi --dump-keymap)",
+      "WebFetch(domain:yazi-rs.github.io)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(yazi --version)",
+      "Bash(yazi --debug)",
+      "Bash(pacman -Ql yazi)",
+      "Read(//home/junyi/.local/share/**)",
+      "Read(//tmp/**)",
+      "Read(//home/junyi/.cache/**)",
+      "Bash(curl -s \"https://yazi-rs.github.io/docs/plugins/overview\")",
+      "Bash(curl -sL \"https://yazi-rs.github.io/docs/plugins/overview\")",
+      "Bash(curl -sL \"https://yazi-rs.github.io/docs/plugins/linemode\")",
+      "Bash(python3 -c \"import sys; from html.parser import HTMLParser; class P\\(HTMLParser\\): def handle_data\\(self, d\\): d = d.strip\\(\\) if d: print\\(d\\) P\\(\\).feed\\(sys.stdin.read\\(\\)\\)\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/sxyazi/yazi/refs/heads/main/yazi-plugin/preset/plugins/linemode.lua\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-plugin/preset/components/linemode.lua\")"
+    ]
+  }
+}

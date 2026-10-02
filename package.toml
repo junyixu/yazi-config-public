@@ -1,0 +1,14 @@
+[[plugin.deps]]
+use = "dedukun/bookmarks"
+rev = "9ef1254"
+hash = "92fbb5483657fa7976cdf4e0104e18e0"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:types"
+rev = "e84f4fe"
+hash = "4161cfa043b5ba3341d82c6869007b41"
+
+[[flavor.deps]]
+use = "BennyOe/tokyo-night"
+rev = "8e6296f"
+hash = "d9da921c3bd37ba32ee27a8a7a40461f"

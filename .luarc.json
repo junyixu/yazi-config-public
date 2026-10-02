@@ -1,0 +1,11 @@
+{
+  "workspace": {
+    "library": [
+      "/home/junyi/.config/yazi/plugins/types.yazi"
+    ],
+    "checkThirdParty": false
+  },
+  "diagnostics": {
+    "globals": ["ya", "cx", "ui"]
+  }
+}
